@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.slick-dots li {
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.slick-dots li.slick-active button::before {
+    background-color: green;
+    border-radius: 5px;
+}
