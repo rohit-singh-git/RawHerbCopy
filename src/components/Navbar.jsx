@@ -7,7 +7,7 @@ function Navbar() {
                 <div className="flex items-center gap-3 cursor-default">
                     {/* Logo and name */}
                     <img src="/RawHerbCopy/assets/images/logo1.png" alt="logo" className="w-18 h-20" />
-                    <span className="font-bold text-2xl md:text-4xl text-white">RawHerbCopy</span>
+                    <span className="font-bold text-xl md:text-4xl text-white">RawHerbCopy</span>
                 </div>
             </Link>
 
