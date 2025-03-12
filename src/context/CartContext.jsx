@@ -49,9 +49,15 @@ export const CartProvider = ({ children }) => {
         });
     };
 
+    const clearCart = () => {
+        const updatedCart = setCart([])
+        localStorage.setItem("cart", JSON.stringify(updatedCart))
+        return updatedCart
+    }
+
     // Function to remove item from cart
     const removeFromCart = (id) => {
-        const removedItem = cart.find((item) => item.id === id);
+        // const removedItem = cart.find((item) => item.id === id);
 
         setCart((prevCart) => {
             const updatedCart = prevCart.filter((item) => item.id !== id);
@@ -60,8 +66,9 @@ export const CartProvider = ({ children }) => {
         });
     };
 
+
     return (
-        <CartContext.Provider value={{ cart, addToCart, removeFromCart, message }}>
+        <CartContext.Provider value={{ cart, addToCart, removeFromCart, message, clearCart }}>
             {children}
         </CartContext.Provider>
     );

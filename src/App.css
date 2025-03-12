@@ -9,3 +9,7 @@
     background-color: green;
     border-radius: 5px;
 }
+
+@theme{
+    --color-olive-green: #bab86c
+}

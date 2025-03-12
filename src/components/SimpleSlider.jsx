@@ -29,15 +29,15 @@ function SimpleSlider({ searchQuery }) {
         <div className=" grid grid-cols-1 justify-between gap-4 md:gap-6 lg:gap-8 p-6 ml-5 mr-7">
             <Slider {...settings}>
 
-               
-                    {filteredProducts.length > 0 ? (
-                        filteredProducts.map((product) => (
-                            <ProductCard key={product.id} product={product}/>
-                        ))
-                    ) : (
-                        <p className="col-span-3 text-center text-red-500 text-lg">No products found</p>
-                    )}
-              
+
+                {filteredProducts.length > 0 ? (
+                    filteredProducts.map((product) => (
+                        <ProductCard key={product.id} product={product} />
+                    ))
+                ) : (
+                    <p className="col-span-3 text-center text-red-500 text-lg">No products found</p>
+                )}
+
 
 
             </Slider>

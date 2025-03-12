@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const AuthPage = () => {
     const [isLogin, setIsLogin] = useState(true); // Toggle between Login & Signup
@@ -8,17 +9,20 @@ const AuthPage = () => {
     const [confirmPassword, setConfirmPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
 
+    const navigate = useNavigate()
+
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!isLogin && password !== confirmPassword) {
             alert("Passwords do not match!");
             return;
         }
-        alert(isLogin ? "Login Successful!" : "Signup Successful!");
+        localStorage.setItem("userToken", "sampleToken")
+        navigate("/RawHerbCopy/checkout/")
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-gray-900">
+        <div className="flex justify-center items-center min-h-140 md:min-h-screen bg-gray-900">
             <div className="bg-gray-800 p-6 rounded-xl shadow-md w-96">
                 <h2 className="text-2xl font-bold text-center text-white mb-4">
                     {isLogin ? "Login" : "Sign Up"}
