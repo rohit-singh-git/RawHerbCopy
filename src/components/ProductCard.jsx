@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 
 function ProductCard({ product }) {
@@ -7,8 +8,9 @@ function ProductCard({ product }) {
     return (
         <>
             <div className=" bg-yellow-900 text-white justify-center m-auto mb-5 p-4 rounded-lg w-full md:w-64 shadow-lg">
+                <Link to={`/RawHerbCopy/product/${product.id}`}>
                 <h2 className="text-xl font-bold text-center">{product.name}</h2>
-                <div className="bg-white p-4 rounded-lg mt-2">
+                <div className="bg-white p-4 object-cover rounded-lg mt-2">
                     <img
                         src={product.image} // Replace with the correct image path
                         alt={product.name}
@@ -22,6 +24,7 @@ function ProductCard({ product }) {
                         Add to Cart
                     </button>
                 </div>
+                </Link>
 
                 {message && (
                     <div className="absolute top-0 left-0 right-0 bg-green-600 text-white text-sm text-center p-2 rounded-md animate-bounce">

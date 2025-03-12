@@ -4,35 +4,69 @@
     "name": "Moringa Powder",
     "price": 100,
     "description": "This is a great product.",
-    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg"
+    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+    "images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ]
   },
   {
     "id": 2,
     "name": "Honey",
     "price": 150,
     "description": "Great Honey within its category.",
-    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg"
-  }
-  ,
+    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+    "images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ]
+  },
   {
     "id": 3,
     "name": "Ashwagandha",
     "price": 400,
     "description": "Great Ashwagandha within its category.",
-    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg"
+    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+    "images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ]
   },
   {
     "id": 4,
     "name": "Moringa Powder",
     "price": 100,
     "description": "This is a great product.",
-    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg"
+    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+    "images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ]
   },
   {
     "id": 5,
     "name": "Honey",
     "price": 150,
     "description": "Great Honey within its category.",
-    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    "image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg",
+    "images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ]
   }
 ]
