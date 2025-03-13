@@ -1,6 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 function Navbar() {
+
+    const { user, logout } = useAuth();
     return (
         <div className="w-full md:w-screen h-max bg-yellow-950 py-3 px-3 md:py-4 md:px-8 flex justify-between items-center shadow-lg">
             <Link to="/RawHerbCopy/">
@@ -30,17 +33,24 @@ function Navbar() {
                         Cart
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink
-                        to="/RawHerbCopy/login/"
-                        className={({ isActive }) =>
-                            `cursor-pointer font-medium ${isActive ? "text-gray-500 text-lg md:text-2xl italic font-medium" : "hover:text-gray-400 text-white"
-                            }`
-                        }
-                    >
-                        Login
-                    </NavLink>
-                </li>
+                {user ? (
+                    <li onClick={logout} className="cursor-pointer font-medium hover:text-gray-400 text-white">
+                        Logout
+                    </li>
+                ) : (
+                    <li>
+                        <NavLink
+                            to="/RawHerbCopy/login/"
+                            className={({ isActive }) =>
+                                `cursor-pointer font-medium ${isActive ? "text-gray-500 text-lg md:text-2xl italic font-medium" : "hover:text-gray-400 text-white"
+                                }`
+                            }
+                        >
+                            Login
+                        </NavLink>
+                    </li>
+                )
+                }
             </ul>
         </div>
     );

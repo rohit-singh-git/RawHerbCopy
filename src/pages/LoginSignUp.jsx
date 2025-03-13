@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 const AuthPage = () => {
     const [isLogin, setIsLogin] = useState(true); // Toggle between Login & Signup
@@ -8,6 +9,7 @@ const AuthPage = () => {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
+    const { login } = useAuth()
 
     const navigate = useNavigate()
 
@@ -17,8 +19,10 @@ const AuthPage = () => {
             alert("Passwords do not match!");
             return;
         }
-        localStorage.setItem("userToken", "sampleToken")
-        navigate("/RawHerbCopy/checkout/")
+        login("user")
+        const previouspage = localStorage.getItem("previouspage") || "/RawHerbCopy/"
+        navigate(previouspage)
+        localStorage.removeItem("previouspage")
     };
 
     return (

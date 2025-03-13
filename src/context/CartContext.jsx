@@ -13,19 +13,22 @@ export const CartProvider = ({ children }) => {
 
     // Load cart from localStorage on page load
     useEffect(() => {
-        const items_cart = localStorage.getItem("cart");
-        if (items_cart) {
-            try {
+        try {
+            const items_cart = localStorage.getItem("cart");
+            if (items_cart) {
+
                 setCart(JSON.parse(items_cart));
-            } catch (error) {
-                console.error("Error parsing cart data:", error);
-                setCart([]); // Set empty cart if JSON is invalid
+            } else {
+                setCart([]); // Default to an empty cart
             }
-        } else {
-            setCart([]); // Default to an empty cart
+        } catch (error) {
+            console.error("Error parsing cart data:", error);
+            setCart([]); // Set empty cart if JSON is invalid
+            localStorage.removeItem("cart")
+
         }
     }, []);
-    
+
 
     // Function to add item to cart
     const addToCart = (product) => {
@@ -50,9 +53,8 @@ export const CartProvider = ({ children }) => {
     };
 
     const clearCart = () => {
-        const updatedCart = setCart([])
-        localStorage.setItem("cart", JSON.stringify(updatedCart))
-        return updatedCart
+        setCart([])
+        localStorage.removeItem("cart")
     }
 
     // Function to remove item from cart

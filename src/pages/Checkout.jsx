@@ -1,18 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
+import { useAuth } from "../context/AuthContext";
 
 function Checkout() {
+
     const navigate = useNavigate()
-    const {clearCart} = useCart()
+    const { clearCart } = useCart()
+    const { user } = useAuth()
 
     // Redirect to login if not authenticated
     useEffect(() => {
-        const isAuthenticated = !!localStorage.getItem("userToken");
-        if (!isAuthenticated) {
-            navigate("/login");
+        if (!user) {
+            localStorage.setItem("previouspage", window.location.pathname)
+            navigate('/RawHerbCopy/login/')
         }
-    }, []);
+    }, [user, navigate]);
 
     // State for form fields
     const [formData, setFormData] = useState({
