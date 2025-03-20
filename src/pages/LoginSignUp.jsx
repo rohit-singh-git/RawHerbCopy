@@ -1,29 +1,56 @@
 import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import axios from "axios";
 
 const AuthPage = () => {
     const [isLogin, setIsLogin] = useState(true); // Toggle between Login & Signup
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
+    const [username, setuserName] = useState("");
+    const [fullName, setfullName] = useState("");
     const [showPassword, setShowPassword] = useState(false);
     const { login } = useAuth()
 
-    const navigate = useNavigate()
-
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+
         if (!isLogin && password !== confirmPassword) {
             alert("Passwords do not match!");
             return;
         }
-        login("user")
-        const previouspage = localStorage.getItem("previouspage") || "/RawHerbCopy/"
-        navigate(previouspage)
-        localStorage.removeItem("previouspage")
+
+        try {
+            let response;
+            if (isLogin) {
+                // Login request
+                response = await axios.post("http://localhost:8000/api/v1/users/login", { email, password });
+            } else {
+                // Signup request
+                response = await axios.post("http://localhost:8000/api/v1/users/register", {
+                    email,
+                    password,
+                    username,
+                    fullName
+                });
+            }
+
+            const userData = response.data; // Assuming the API returns user data
+            // const user_Data = userData.data.user
+            // console.log("User logged in:", user_Data);
+            // console.log("Username:", user_Data.username);
+            // console.log("Email:", user_Data.email);
+            // console.log("Full Name:", user_Data.fullName);
+
+            login(userData); // Store user info and navigate
+
+        } catch (error) {
+            console.error("Authentication error:", error.response?.data || error.message);
+            alert("Authentication failed. Please check your credentials.");
+        }
     };
+
 
     return (
         <div className="flex justify-center items-center min-h-140 md:min-h-screen bg-gray-900">
@@ -33,6 +60,36 @@ const AuthPage = () => {
                 </h2>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
+                    {/* Name Input */}
+                    {!isLogin && (
+                        <div>
+                            <label className="text-white">Name</label>
+                            <input
+                                type="text"
+                                className="w-full p-2 rounded-md bg-gray-700 text-white mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Enter your name"
+                                value={fullName}
+                                onChange={(e) => setfullName(e.target.value)}
+                                required
+                            />
+                        </div>
+                    )}
+
+                    {/* Username Input */}
+                    {!isLogin && (
+                        <div>
+                            <label className="text-white">Username</label>
+                            <input
+                                type="text"
+                                className="w-full p-2 rounded-md bg-gray-700 text-white mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                placeholder="Enter your username"
+                                value={username}
+                                onChange={(e) => setuserName(e.target.value)}
+                                required
+                            />
+                        </div>
+                    )}
+
                     {/* Email Input */}
                     <div>
                         <label className="text-white">Email</label>
