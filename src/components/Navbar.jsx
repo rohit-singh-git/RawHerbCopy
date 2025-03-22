@@ -4,9 +4,13 @@ import { useAuth } from "../context/AuthContext";
 function Navbar() {
 
     const { user, logout } = useAuth();
-    let username = ""
+    let username = "Guest"
     if (user) {
-        username = user.data.user.username
+        if (user.data.username) {
+            username = user.data.username
+        } else {
+            username = user.data.user.username
+        }
     }
     return (
         <div className="w-full md:w-screen h-max bg-yellow-950 py-3 px-3 md:py-4 md:px-8 flex justify-between items-center shadow-lg">

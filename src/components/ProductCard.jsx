@@ -8,16 +8,16 @@ function ProductCard({ product }) {
     return (
         <>
             <div className=" bg-yellow-900 text-white justify-center m-auto mb-5 p-4 rounded-lg w-full md:w-64 shadow-lg">
-                <Link to={`/RawHerbCopy/product/${product.id}`}>
+                <Link to={`/RawHerbCopy/product/${product._id}`}>
                     <h2 className="text-xl font-bold text-center">{product.name}</h2>
                     <div className="bg-white p-4 object-cover rounded-lg mt-2">
                         <img
-                            src={product.image}
+                            src={product.main_image}
                             alt={product.name}
                             className="w-full h-70 object-cover rounded-lg"
                         />
                     </div>
-                    <p className="text-white font-medium text-sm flex justify-center m-3">{product.description}</p>
+                    <p className="text-white font-medium text-sm flex justify-center m-3">{product.short_description}</p>
                 </Link>
                 <div className="flex justify-between items-center mt-4">
                     <p className="text-lg font-bold">{new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}</p>

@@ -53,7 +53,7 @@ const AuthPage = () => {
 
 
     return (
-        <div className="flex justify-center items-center min-h-140 md:min-h-screen bg-gray-900">
+        <div className="w-screen md:w-full flex justify-center items-center min-h-140 md:min-h-screen m-5 bg-gray-900">
             <div className="bg-gray-800 p-6 rounded-xl shadow-md w-96">
                 <h2 className="text-2xl font-bold text-center text-white mb-4">
                     {isLogin ? "Login" : "Sign Up"}
