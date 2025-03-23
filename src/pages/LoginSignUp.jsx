@@ -25,10 +25,10 @@ const AuthPage = () => {
             let response;
             if (isLogin) {
                 // Login request
-                response = await axios.post("http://localhost:8000/api/v1/users/login", { email, password });
+                response = await axios.post("https://rawherbbackend.onrender.com/api/v1/users/login", { email, password });
             } else {
                 // Signup request
-                response = await axios.post("http://localhost:8000/api/v1/users/register", {
+                response = await axios.post("https://rawherbbackend.onrender.com/api/v1/users/register", {
                     email,
                     password,
                     username,

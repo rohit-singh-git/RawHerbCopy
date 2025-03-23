@@ -10,7 +10,7 @@ function ProductList({ searchQuery }) {
     const [error, setError] = useState(null)
 
     useEffect(() => {
-        axios.get("http://localhost:8000/api/v1/products")
+        axios.get("https://rawherbbackend.onrender.com/api/v1/products")
             .then((response) => {
                 // console.log("Api response : ", response.data.message)
                 setProducts(response.data.message)
