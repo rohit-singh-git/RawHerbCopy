@@ -25,10 +25,10 @@ const AuthPage = () => {
             let response;
             if (isLogin) {
                 // Login request
-                response = await axios.post("http://localhost:8000/api/v1/users/login", { email, password });
+                response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/v1/users/login`, { email, password });
             } else {
                 // Signup request
-                response = await axios.post("http://localhost:8000/api/v1/users/register", {
+                response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/v1/users/register`, {
                     email,
                     password,
                     username,
