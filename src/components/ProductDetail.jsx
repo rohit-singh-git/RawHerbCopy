@@ -4,16 +4,13 @@ import { useParams, Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import dotenv from "dotenv"
-
-dotenv.config()
 
 function ProductDetail() {
 
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/products`)
+        axios.get("http://localhost:8000/api/v1/products")
             .then((response) => {
                 // console.log("Api response : ", response.data.message)
                 setProducts(response.data.message)

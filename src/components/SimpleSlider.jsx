@@ -7,9 +7,6 @@ import ProductCard from "./ProductCard";
 import "../../src/App.css"
 import { useState, useEffect } from "react";
 import axios from "axios";
-import dotenv from "dotenv"
-
-dotenv.config()
 
 function SimpleSlider({ searchQuery }) {
 
@@ -18,7 +15,7 @@ function SimpleSlider({ searchQuery }) {
     const [error, setError] = useState(null)
 
     useEffect(() => {
-        axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/products`)
+        axios.get("http://localhost:8000/api/v1/products")
             .then((response) => {
                 // console.log("Api response : ", response.data.message)
                 setProducts(response.data.message)

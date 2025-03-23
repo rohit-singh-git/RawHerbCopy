@@ -2,9 +2,6 @@
 import ProductCard from "./ProductCard";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import dotenv from "dotenv"
-
-dotenv.config()
 
 function ProductList({ searchQuery }) {
 
@@ -13,7 +10,7 @@ function ProductList({ searchQuery }) {
     const [error, setError] = useState(null)
 
     useEffect(() => {
-        axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/products`)
+        axios.get("http://localhost:8000/api/v1/products")
             .then((response) => {
                 // console.log("Api response : ", response.data.message)
                 setProducts(response.data.message)
