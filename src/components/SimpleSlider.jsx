@@ -7,6 +7,9 @@ import ProductCard from "./ProductCard";
 import "../../src/App.css"
 import { useState, useEffect } from "react";
 import axios from "axios";
+import dotenv from "dotenv"
+
+dotenv.config()
 
 function SimpleSlider({ searchQuery }) {
 

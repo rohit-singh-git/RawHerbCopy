@@ -2,6 +2,9 @@
 import ProductCard from "./ProductCard";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import dotenv from "dotenv"
+
+dotenv.config()
 
 function ProductList({ searchQuery }) {
 

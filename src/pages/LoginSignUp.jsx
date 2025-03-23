@@ -2,6 +2,9 @@ import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useAuth } from "../context/AuthContext";
 import axios from "axios";
+import dotenv from "dotenv"
+
+dotenv.config()
 
 const AuthPage = () => {
     const [isLogin, setIsLogin] = useState(true); // Toggle between Login & Signup
