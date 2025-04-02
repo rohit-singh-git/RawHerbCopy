@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-import { useCart } from "../context/CartContext";
 
 function ProductCard({ product }) {
-
-    const { addToCart, message } = useCart()
 
     return (
         <>
@@ -19,18 +16,9 @@ function ProductCard({ product }) {
                     </div>
                     <p className="text-white font-medium text-sm flex justify-center m-3">{product.short_description}</p>
                 </Link>
-                <div className="flex justify-between items-center mt-4">
+                <div className="flex justify-center items-center mt-4">
                     <p className="text-lg font-bold">{new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}</p>
-                    <button className="bg-green-600 px-4 py-2 rounded-lg text-white font-semibold hover:bg-green-800" onClick={() => { addToCart(product) }}>
-                        Add to Cart
-                    </button>
                 </div>
-
-                {message && (
-                    <div className="absolute top-0 left-0 right-0 bg-green-600 text-white text-sm font-medium text-center p-2 rounded-md animate-bounce">
-                        {message}
-                    </div>
-                )}
             </div>
         </>
     );
