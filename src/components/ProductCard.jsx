@@ -17,7 +17,7 @@ function ProductCard({ product }) {
                     <p className="text-charcoal-grey font-medium text-sm flex justify-center m-3">{product.short_description}</p>
                 </Link>
                 <div className="flex justify-center items-center mt-4">
-                    <p className="text-lg font-bold">{new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}</p>
+                    <p className="text-lg font-bold">{new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.size_price["100gm"])}</p>
                 </div>
             </div>
         </>
