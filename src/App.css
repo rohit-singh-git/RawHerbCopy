@@ -11,5 +11,10 @@
 }
 
 @theme{
-    --color-olive-green: #bab86c
+    --color-herbal-green: #4CAF50;
+    --color-soft-aqua-blue: #A3D5D3;
+    --color-light-cream: #FAF9F6;
+    --color-charcoal-grey: #333333;
+    --color-warm-beige: #D6C9A8;
+    --color-vintage-green: #597445;
 }

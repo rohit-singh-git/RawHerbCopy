@@ -11,12 +11,12 @@ function Home() {
         <>
 
             <form className="search-form flex justify-center m-6 p-6">
-                <input type="text" placeholder="Search for products..." className="search-input bg-gray-700 rounded-2xl px-20 p-2" value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value.toLowerCase()) }} />
+                <input type="text" placeholder="Search for products..." className="search-input bg-warm-beige rounded-2xl px-20 p-2 text-charcoal-grey" value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value.toLowerCase()) }} />
             </form>
 
-            {/* <ProductList searchQuery={searchQuery} /> */}
+            <ProductList searchQuery={searchQuery} />
 
-            <SimpleSlider searchQuery={searchQuery} />
+            {/* <SimpleSlider searchQuery={searchQuery} /> */}
 
         </>
     );

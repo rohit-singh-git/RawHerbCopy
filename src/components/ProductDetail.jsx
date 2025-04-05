@@ -37,12 +37,34 @@ function ProductDetail() {
                     ))}
                 </Slider>
             </div>
-            <h1 className="text-3xl font-bold mt-4">{product.name}</h1>
-            <p className="text-white mt-4 w-96 text-center md:min-w-3/4">{product.long_description}</p>
-            <div className="flex justify-center items-center mt-4">
-                <p className="text-lg font-bold">{new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}</p>
-                
+            <h1 className="text-charcoal-grey text-3xl font-bold mt-4">{product.name}</h1>
+            <p className="text-charcoal-grey mt-4 w-96 text-center md:min-w-3/4">{product.long_description}</p>
+            {/* <div className="flex justify-center items-center mt-4">
+                <p className="text-lg font-bold text-charcoal-grey">
+                    {new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}
+                </p>
+                <p className="text-lg font-bold text-charcoal-grey">
+                    {new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price2?.["200gm"])}
+                </p>
+
+            </div> */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                {Object.entries(product?.size_price).map(([size, price]) => (
+                    <div
+                        key={size}
+                        className="border border-green-400 rounded-lg p-4 flex flex-col items-center shadow-sm hover:shadow-md transition-shadow"
+                    >
+                        <p className="text-green-700 font-semibold text-lg">{size}</p>
+                        <p className="text-charcoal-grey font-bold">
+                            {new Intl.NumberFormat("en-IN", {
+                                style: "currency",
+                                currency: "INR"
+                            }).format(price)}
+                        </p>
+                    </div>
+                ))}
             </div>
+
             <Link to="/RawHerbCopy/" className="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
                 Back to Home
             </Link>

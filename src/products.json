@@ -12,7 +12,12 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
-    ]
+    ],
+    "size_price": {
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
+    }
   },
   {
     "_id": 2,
@@ -27,7 +32,12 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
-    ]
+    ],
+    "size_price": {
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
+    }
   },
   {
     "_id": 3,
@@ -42,7 +52,12 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
-    ]
+    ],
+    "size_price": {
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
+    }
   },
   {
     "_id": 4,
@@ -57,7 +72,12 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
-    ]
+    ],
+    "size_price": {
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
+    }
   },
   {
     "_id": 5,
@@ -72,6 +92,11 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
-    ]
+    ],
+    "size_price": {
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
+    }
   }
 ]
