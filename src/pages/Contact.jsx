@@ -4,7 +4,7 @@ import { faInstagram, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg
 function Contact() {
     return (
         <>
-            <div className="w-screen md:w-full flex justify-center items-center min-h-screen m-5 bg-gray-900">
+            <div className="w-screen md:w-full flex justify-center items-center min-h-screen bg-gray-900">
                 <div className=" bg-gray-700 flex flex-col  justify-center items-center max-w-md w-full p-6 rounded-3xl shadow-lg">
                     <p className=" font-medium text-white text-3xl mb-6">Contact Us</p>
                     <div className="flex flex-col items-center space-y-4">
