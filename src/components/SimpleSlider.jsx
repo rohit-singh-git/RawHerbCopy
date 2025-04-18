@@ -22,7 +22,7 @@ function SimpleSlider() {
 
     return (
 
-        <div className="w-full h-97 grid grid-cols-1 justify-between mb-5 md:mb-15 px-4 md:px-10">
+        <div className="w-full md:h-97 grid grid-cols-1 justify-between mb-5 md:mb-15 px-4 md:px-10">
 
             <Slider {...settings} className="m-2 pb-3 ">
 
@@ -31,7 +31,7 @@ function SimpleSlider() {
                         key={index}
                         src={src}
                         alt={`Product image ${index}`}
-                        className="w-screen h-35 md:h-95 object-cover rounded-md shadow-2xl md:pb-5"
+                        className="w-full h-35 md:h-100 object-cover rounded-md shadow-2xl md:pb-5"
                     />
                 ))}
             </Slider>

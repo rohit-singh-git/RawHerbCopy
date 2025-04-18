@@ -23,31 +23,23 @@ function ProductDetail() {
         slidesToScroll: 1,
         fade: true,
         centerMode: true,
-        className: "center"
+        className: "center",
+        centerPadding: "0px",
     }
 
     return (
-        <div className="flex flex-col items-center justify-center p-8">
-            <div className="w-1/2 grid justify-between grid-cols-1 gap-4 md:gap-6 lg:gap-8 p-6 ml-5 mr-7">
+        <div className="flex flex-col items-center justify-center p-5 overflow-x-hidden">
+            <div className="md:w-1/2 grid justify-between grid-cols-1 gap-4 md:gap-6 lg:gap-8 p-6 ml-5 mr-7">
                 <Slider {...settings}>
                     {product.additional_images.map((image, index) => (
                         <div>
-                            <img className="w-full h-80 object-cover rounded-lg" src={image} alt={`Slide ${index}`} />
+                            <img className="w-full h-80 object-cover rounded-lg shadow-lg" src={image} alt={`Slide ${index}`} />
                         </div>
                     ))}
                 </Slider>
             </div>
             <h1 className="text-charcoal-grey text-3xl font-bold mt-4">{product.name}</h1>
             <p className="text-charcoal-grey mt-4 w-96 text-center md:min-w-3/4">{product.long_description}</p>
-            {/* <div className="flex justify-center items-center mt-4">
-                <p className="text-lg font-bold text-charcoal-grey">
-                    {new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}
-                </p>
-                <p className="text-lg font-bold text-charcoal-grey">
-                    {new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price2?.["200gm"])}
-                </p>
-
-            </div> */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
                 {Object.entries(product?.size_price).map(([size, price]) => (
                     <div

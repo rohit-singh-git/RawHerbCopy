@@ -5,7 +5,7 @@ function Contact() {
     return (
         <>
             <div className="w-screen md:w-full flex justify-center items-center min-h-screen bg-gray-900">
-                <div className=" bg-gray-700 flex flex-col  justify-center items-center max-w-md w-full p-6 rounded-3xl shadow-lg">
+                <div className=" bg-gray-700 flex flex-col  justify-center items-center max-w-md w-7/8 p-6 rounded-3xl shadow-lg">
                     <p className=" font-medium text-white text-3xl mb-6">Contact Us</p>
                     <div className="flex flex-col items-center space-y-4">
                         <a href="https://www.instagram.com/rawherb.official/" target="_blank" rel="noopener noreferrer">

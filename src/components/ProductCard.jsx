@@ -4,7 +4,7 @@ function ProductCard({ product }) {
 
     return (
         <>
-            <div className="w-full md:w-64 bg-warm-beige text-charcoal-grey justify-center m-auto mb-5 p-4 rounded-lg  shadow-lg">
+            <div className="w-full md:w-64 bg-warm-beige text-charcoal-grey justify-center m-auto mb-5 p-4 rounded-lg  shadow-lg overflow-x-hidden">
                 <Link to={`/RawHerbCopy/product/${product._id}`}>
                     <h2 className="text-xl font-bold text-center">{product.name}</h2>
                     <div className="bg-white p-4 object-cover rounded-lg mt-2">
