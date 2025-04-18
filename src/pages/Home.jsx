@@ -14,9 +14,11 @@ function Home() {
                 <input type="text" placeholder="Search for products..." className="search-input bg-warm-beige rounded-2xl px-20 p-2 text-charcoal-grey" value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value.toLowerCase()) }} />
             </form>
 
+            <SimpleSlider />
+
+
             <ProductList searchQuery={searchQuery} />
 
-            {/* <SimpleSlider searchQuery={searchQuery} /> */}
 
         </>
     );

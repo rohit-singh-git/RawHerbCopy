@@ -1,12 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
-import products from "../products.json"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductCard from "./ProductCard";
 import "../../src/App.css"
+import links from "../advert_links.json"
 
-function SimpleSlider({ searchQuery }) {
+function SimpleSlider() {
 
     var settings = {
         dots: true,
@@ -17,29 +16,24 @@ function SimpleSlider({ searchQuery }) {
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true
+        centerMode: true,
+        centerPadding: "0px",
     };
-
-    const filteredProducts = Array.isArray(products) ? products.filter((product) =>
-        product.name.toLowerCase().includes(searchQuery.toLowerCase())
-    ) : [];
 
     return (
 
-        <div className=" grid grid-cols-1 justify-between gap-4 md:gap-6 lg:gap-8 p-6 ml-5 mr-7">
-            <Slider {...settings}>
+        <div className="w-full h-97 grid grid-cols-1 justify-between mb-5 md:mb-15 px-4 md:px-10">
 
+            <Slider {...settings} className="m-2 pb-3 ">
 
-                {filteredProducts.length > 0 ? (
-                    filteredProducts.map((product) => (
-                        <ProductCard key={product._id} product={product} />
-                    ))
-                ) : (
-                    <p className="col-span-3 text-center text-red-500 text-lg">No products found</p>
-                )}
-
-
-
+                {links.images.map((src, index) => (
+                    <img
+                        key={index}
+                        src={src}
+                        alt={`Product image ${index}`}
+                        className="w-screen h-35 md:h-95 object-cover rounded-md shadow-2xl md:pb-5"
+                    />
+                ))}
             </Slider>
         </div>
 

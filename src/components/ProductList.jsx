@@ -1,6 +1,5 @@
 import products from "../products.json";
 import ProductCard from "./ProductCard";
-import { useState } from "react";
 
 function ProductList({ searchQuery }) {
 
