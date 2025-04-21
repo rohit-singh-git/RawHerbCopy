@@ -31,10 +31,10 @@ function ProductDetail() {
     return (
         <div className="flex flex-col items-center justify-center p-5 overflow-x-hidden">
             <div className="md:w-1/2 grid justify-between grid-cols-1 gap-4 md:gap-6 lg:gap-8 p-6 ml-5 mr-7">
-                <Slider {...settings}>
+                <Slider {...settings} className="m-2 pb-3">
                     {product.additional_images.map((image, index) => (
                         <div>
-                            <img className="w-full h-80 object-cover rounded-lg shadow-lg" src={image} alt={`Slide ${index}`} />
+                            <img className="w-full h-auto object-cover rounded-lg shadow-lg" src={image} alt={`Slide ${index}`} />
                         </div>
                     ))}
                 </Slider>

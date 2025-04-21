@@ -25,7 +25,7 @@ function SimpleSlider() {
 
         <div className="w-full md:h-97 grid grid-cols-1 justify-between mb-5 md:mb-15 px-4 md:px-10">
 
-            <Slider {...settings} className="m-2 pb-3 ">
+            <Slider {...settings} className="m-2 pb-3">
 
                 {links.images.map((item, index) => (
                     <div key={index} className="px-2">
