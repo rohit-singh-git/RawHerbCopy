@@ -18,3 +18,9 @@
     --color-warm-beige: #D6C9A8;
     --color-vintage-green: #597445;
 }
+
+.slick-slide > div {
+    display: flex !important;
+    justify-content: center;
+  }
+  

@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../../src/App.css"
 import links from "../advert_links.json"
+import { Link } from "react-router-dom";
 
 function SimpleSlider() {
 
@@ -14,7 +15,7 @@ function SimpleSlider() {
         fade: true,
         infinite: true,
         speed: 1000,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: "0px",
@@ -26,14 +27,18 @@ function SimpleSlider() {
 
             <Slider {...settings} className="m-2 pb-3 ">
 
-                {links.images.map((src, index) => (
-                    <img
-                        key={index}
-                        src={src}
-                        alt={`Product image ${index}`}
-                        className="w-full h-35 md:h-100 object-cover rounded-md shadow-2xl md:pb-5"
-                    />
+                {links.images.map((item, index) => (
+                    <div key={index} className="px-2">
+                        <Link to={item.link}>
+                            <img
+                                src={item.src}
+                                alt={`Product image ${index}`}
+                                className="w-full h-auto md:h-95 object-cover rounded-md shadow-xl"
+                            />
+                        </Link>
+                    </div>
                 ))}
+
             </Slider>
         </div>
 

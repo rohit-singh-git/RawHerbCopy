@@ -1,0 +1,93 @@
+[
+    {
+        "_id": 1,
+        "name": "Moringa Powder",
+        "short_description": "This is a great product.",
+        "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+        "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+        "additional_images": [
+            "https://github.com/rohit-singh-git/RawHerbCopy/blob/gh-pages/assets/images/a.jpg"
+        ],
+        "size_price": {
+            "100gm": 200,
+            "200gm": 400,
+            "400gm": 800
+        }
+    },
+    {
+        "_id": 2,
+        "name": "Honey",
+        "short_description": "Great Honey within its category.",
+        "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+        "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+        "additional_images": [
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png"
+        ],
+        "size_price": {
+            "100gm": 100,
+            "200gm": 200,
+            "400gm": 600
+        }
+    },
+    {
+        "_id": 3,
+        "name": "Ashwagandha",
+        "short_description": "Great Ashwagandha within its category.",
+        "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+        "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+        "additional_images": [
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png"
+        ],
+        "size_price": {
+            "100gm": 300,
+            "200gm": 500,
+            "400gm": 900
+        }
+    },
+    {
+        "_id": 4,
+        "name": "Moringa Powder",
+        "short_description": "This is a great product.",
+        "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+        "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+        "additional_images": [
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png"
+        ],
+        "size_price": {
+            "100gm": 50,
+            "200gm": 500,
+            "400gm": 600
+        }
+    },
+    {
+        "_id": 5,
+        "name": "Honey",
+        "short_description": "Great Honey within its category.",
+        "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg",
+        "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+        "additional_images": [
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png",
+            "./assets/images/a.png"
+        ],
+        "size_price": {
+            "100gm": 900,
+            "200gm": 200,
+            "400gm": 1000
+        }
+    }
+]

@@ -1,6 +1,16 @@
 {
     "images": [
-        "./assets/images/image.jpg",
-        "./assets/images/image.jpg"
+        {
+            "src": "./assets/images/a.jpg",
+            "link": "/RawHerbCopy/product/1"
+        },
+        {
+            "src": "./assets/images/a.jpg",
+            "link": "/RawHerbCopy/product/2"
+        },
+        {
+            "src": "./assets/images/a.jpg",
+            "link": "/RawHerbCopy/product/3"
+        }
     ]
 }
