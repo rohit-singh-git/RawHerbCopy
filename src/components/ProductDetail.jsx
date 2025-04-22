@@ -34,7 +34,12 @@ function ProductDetail() {
                 <Slider {...settings} className="m-2 pb-3">
                     {product.additional_images.map((image, index) => (
                         <div>
-                            <img className="w-full h-auto object-cover rounded-lg shadow-lg" src={image} alt={`Slide ${index}`} />
+                            <img
+  className="w-full h-auto md:max-w-[600px] md:max-h-[450px] object-contain rounded-lg shadow-lg mx-auto"
+  src={image}
+  alt={`Slide ${index}`}
+/>
+
                         </div>
                     ))}
                 </Slider>
