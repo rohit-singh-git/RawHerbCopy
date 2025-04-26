@@ -2,15 +2,15 @@
     "images": [
         {
             "src": "./assets/images/a.jpg",
-            "link": "/RawHerbCopy/product/1"
+            "link": "/product/1"
         },
         {
             "src": "./assets/images/a.jpg",
-            "link": "/RawHerbCopy/product/2"
+            "link": "/product/2"
         },
         {
             "src": "./assets/images/a.jpg",
-            "link": "/RawHerbCopy/product/3"
+            "link": "/product/3"
         }
     ]
 }

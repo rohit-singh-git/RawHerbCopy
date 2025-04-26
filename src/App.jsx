@@ -14,9 +14,9 @@ function App() {
       <main>
 
         <Routes>
-          <Route path="/RawHerbCopy/product/:id" element={<ProductDetail />} />
-          <Route path='/RawHerbCopy/' element={<Home />} />
-          <Route path='/RawHerbCopy/contact-us/' element={<Contact />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/contact-us/' element={<Contact />} />
         </Routes>
 
       </main>
