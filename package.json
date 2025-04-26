@@ -2,7 +2,7 @@
   "name": "rawherbcopy",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://rawherb.co.in/",
+  "homepage": "https://rawherb.co.in",
   "type": "module",
   "scripts": {
     "dev": "vite",
