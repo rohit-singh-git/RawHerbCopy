@@ -2,9 +2,23 @@
   {
     "_id": 1,
     "name": "Moringa Powder",
+    "title": "100% Pure & Organic Moringa Powder | Natural Energy Booster | Immunity & Digestion Support | Vegan Superfood",
     "short_description": "This is a great product.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
-    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+    "long_description": {
+      "1": "Revitalize Your Body Naturally with 100% Pure Moringa Powder",
+      "2": "Discover the age-old Ayurvedic superfood trusted for generations! Our Organic Moringa Powder is made from hand-harvested, shade-dried leaves of the Moringa Oleifera tree, preserving all the vital nutrients in their natural form.",
+      "3": "Packed with vitamins, minerals, and antioxidants, this green powerhouse helps support immunity, digestion, metabolism, energy levels, and skin health. Whether you're a health-conscious individual, a fitness enthusiast, or someone exploring natural wellness, Moringa fits seamlessly into your lifestyle.",
+      "4": "Add a spoonful to smoothies, warm water, herbal tea, or even curries to enjoy its benefits every day!",
+      "5": "✅ FSSAI Approved | ✅ Made in India | ✅ Packed in Food-Grade Ziplock Pouch"
+    },
+    "highlight_points": {
+      "🌿": "100% Pure & Organic – Made from shade-dried moringa leaves with no additives, preservatives, or artificial colors.",
+      "💪": "Natural Immunity Booster – Rich in antioxidants, vitamins A, C, and iron, helping to strengthen your immune system naturally.",
+      "🧠": "Enhances Energy & Focus – Moringa helps combat fatigue and supports mental clarity and stamina throughout the day.",
+      "🥦": "Nutrient-Dense Superfood – Contains essential amino acids, calcium, potassium, and fiber—perfect for daily wellness.",
+      "🌱": "Vegan, Gluten-Free & Chemical-Free – Ideal for vegan and gluten-intolerant diets. A clean, herbal supplement to power your routine."
+    },
     "additional_images": [
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
@@ -20,10 +34,24 @@
   },
   {
     "_id": 2,
-    "name": "Honey",
+    "name": "Ashwagandha Powder",
+    "title": "100% Pure Ashwagandha Powder | Ayurvedic Stress Relief & Energy Booster | Immunity & Strength | Vegan",
     "short_description": "Great Honey within its category.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
-    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+    "long_description": {
+      "1": "Recharge Your Body & Mind with Ancient Ayurvedic Wisdom",
+      "2": "Our Ashwagandha Powder is made from premium-grade, sun-dried ashwagandha roots, finely ground to preserve all their adaptogenic properties.",
+      "3": " Ashwagandha (Withania somnifera) is one of the most powerful herbs in Ayurveda, known for reducing stress, boosting energy, improving mental focus, and enhancing physical strength.Whether you're an athlete, working professional, or simply someone seeking natural wellness, this herb is your go-to daily rejuvenator.",
+      "4": "Mix 1 tsp with warm water, milk, honey, or in smoothies and consume regularly for visible benefits.",
+      "5": "✅ FSSAI Certified | ✅ Chemical-Free | ✅ Vegan | ✅ Made in India"
+    },
+    "highlight_points": {
+      "🧘‍♂️": "Reduces Stress & Anxiety – A powerful adaptogen that helps balance cortisol and promote calmness.",
+      "⚡": "Boosts Energy & Stamina – Enhances physical strength and endurance naturally.",
+      "🛡️": "Supports Immunity & Vitality – Strengthens immune system and supports overall wellness.",
+      "🌿": "100% Natural & Ayurvedic – Pure root powder with no additives, preservatives, or fillers.",
+      "✅": "Edible, Vegan & Gluten-Free – Safe for daily use in water, milk, smoothies, or herbal drinks."
+    },
     "additional_images": [
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
@@ -39,10 +67,24 @@
   },
   {
     "_id": 3,
-    "name": "Ashwagandha",
-    "short_description": "Great Ashwagandha within its category.",
-    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
-    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+    "name": "Rosemary Powder",
+    "title": "100% Pure & Natural Rosemary Powder | Aromatic Culinary Herb | Hair & Skin Care | Antioxidant-Rich",
+    "short_description": "This is a great product.",
+    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+    "long_description": {
+      "1": "Rediscover the Power of Rosemary – A Herbal Classic for Hair, Skin & Kitchen",
+      "2": "Our 100% Pure Rosemary Powder is crafted from handpicked rosemary leaves that are naturally dried and finely powdered to retain their rich aroma and therapeutic qualities.",
+      "3": "Widely used in herbal hair care, rosemary is believed to support healthy hair growth, reduce dandruff, and improve scalp circulation. For the skin, it helps tone and rejuvenate when used in face masks.",
+      "4": "In the kitchen, this aromatic herb elevates the flavor of grilled vegetables, roasted meats, soups, and homemade oils and teas. A must-have multipurpose herb in every conscious home.",
+      "5": "✅ No Fillers | ✅ No Fragrance | ✅ 100% Edible | ✅ FSSAI Certified"
+    },
+    "highlight_points": {
+      "🌿": "100% Natural & Pure – Made from finely ground, sun-dried rosemary leaves with no additives or preservatives.",
+      "🧴": "Hair & Skin Friendly – Supports scalp health, reduces dandruff, and can be used in face packs for glowing skin.",
+      "🍃": "Culinary & Aromatic Herb – Perfect for seasoning dishes, infusing oils, and herbal teas with its distinct aroma and flavor.",
+      "🛡️": "Rich in Antioxidants – Contains compounds that may help reduce oxidative stress and support general wellness.",
+      "✅": "Food Grade | Chemical-Free | Vegan – A versatile herb suitable for culinary and cosmetic use."
+    },
     "additional_images": [
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
@@ -51,17 +93,31 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
     ],
     "size_price": {
-      "100gm": 300,
-      "200gm": 500,
-      "400gm": 900
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
     }
   },
   {
     "_id": 4,
-    "name": "Moringa Powder",
+    "name": "Spirulina Powder",
+    "title": "100% Natural Spirulina Powder | Plant-Based Protein & Antioxidant Superfood | Energy, Immunity & Detox Support | Vegan",
     "short_description": "This is a great product.",
-    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
-    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+    "long_description": {
+      "1": "Fuel Your Body with the Most Nutrient-Dense Superfood on Earth",
+      "2": "Our 100% Natural Spirulina Powder is derived from carefully cultivated freshwater spirulina algae. It’s dried at low temperatures to retain maximum nutrients.",
+      "3": "Spirulina is an ancient blue-green algae known for its incredible nutritional content — loaded with protein, iron, chlorophyll, phycocyanin, and essential vitamins. Regular consumption supports immune health, boosts energy, improves detoxification, and aids in muscle recovery.",
+      "4": "Mix 1 tsp with water, lemon juice, smoothies, or use it in recipes like energy balls or green shots!",
+      "5": "✅ Vegan | ✅ Non-GMO | ✅ Gluten-Free | ✅ FSSAI Certified | ✅ No Artificial Additives"
+    },
+    "highlight_points": {
+      "💪": "High in Plant-Based Protein – Contains over 60% protein with all essential amino acids.",
+      "🛡️": "Powerful Immunity & Detox Support – Rich in antioxidants, chlorophyll & phycocyanin for internal cleansing.",
+      "⚡": "Boosts Energy & Reduces Fatigue – Natural source of iron and B vitamins to fight tiredness.",
+      "🥤": "Perfect for Smoothies, Juices & Fitness Shakes – Ideal for pre/post workout nutrition.",
+      "✅": "100% Edible, Vegan & Preservative-Free – No chemicals or fillers, just pure spirulina goodness."
+    },
     "additional_images": [
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
@@ -70,17 +126,31 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
     ],
     "size_price": {
-      "100gm": 50,
-      "200gm": 500,
-      "400gm": 600
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
     }
   },
   {
     "_id": 5,
-    "name": "Honey",
-    "short_description": "Great Honey within its category.",
-    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg",
-    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloremque ea et assumenda nihil dolorem sunt fugit perspiciatis eos! Vero repellendus magni fugit totam quae necessitatibus blanditiis, nam nihil a esse quis. Libero, nihil provident! Nostrum in illo numquam sit soluta reiciendis sequi ipsa consequuntur facere quo, modi odit, magnam cupiditate esse fugit, aperiam vel recusandae minima fuga pariatur autem possimus. Quidem quasi tempore tenetur distinctio expedita cumque libero! Dicta iste, mollitia temporibus necessitatibus earum blanditiis provident non dolores reiciendis eius itaque illum, id, labore nostrum adipisci ratione in aliquid rerum nulla perferendis? Laboriosam perspiciatis alias at doloremque deserunt qui.",
+    "name": "Wheatgrass Powder",
+    "title": "100% Organic Wheatgrass Powder | Natural Detox & Immunity Booster | Rich in Chlorophyll & Fiber | Vegan Superfood",
+    "short_description": "This is a great product.",
+    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+    "long_description": {
+      "1": "Fuel Your Day with a Supergreen Boost from Nature",
+      "2": "Our 100% Pure Wheatgrass Powder is made from organically grown young wheatgrass shoots, harvested at peak potency and gently dried to preserve essential nutrients.",
+      "3": "Known as a powerful superfood, Wheatgrass is loaded with chlorophyll, iron, calcium, magnesium, and vitamins A, C, E, K, and B-complex. It helps alkalize the body, improve digestion, and increase vitality.",
+      "4": "Take it daily for improved immunity, energy, detoxification, and skin health. Mix it with water, lemon juice, smoothies, or your morning juice.",
+      "5": "✅ USDA Organic | ✅ FSSAI Certified | ✅ Vegan | ✅ No Additives | ✅ Non-GMO"
+    },
+    "highlight_points": {
+      "🌿": "Detox & Cleanse Naturally – Rich in chlorophyll, wheatgrass supports liver detox and internal cleansing.",
+      "🛡️": "Boosts Immunity & Metabolism – Packed with antioxidants, enzymes, and essential nutrients.",
+      "💪": "Supports Energy & Digestion – High in fiber and vitamins that improve gut health and reduce fatigue.",
+      "🥤": "Perfect for Juices, Smoothies & Health Shots – Easy to mix into your daily wellness routine.",
+      "✅": "100% Pure, Vegan & Chemical-Free – No fillers, no preservatives – just raw plant power."
+    },
     "additional_images": [
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
@@ -89,9 +159,42 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
     ],
     "size_price": {
-      "100gm": 900,
-      "200gm": 200,
-      "400gm": 1000
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
+    }
+  },
+  {
+    "_id": 6,
+    "name": "Flaxseed Powder",
+    "title": "100% Natural Flaxseed Powder | Omega-3 Rich Superfood | Weight Management & Heart Health | Edible & Vegan",
+    "short_description": "This is a great product.",
+    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+    "long_description": {
+      "1": "Fuel Your Body Naturally with 100% Pure Flaxseed Powder",
+      "2": "Our Flaxseed Powder is ground from premium quality flaxseeds, retaining all their nutritional value with a fine, easy-to-mix texture. It’s a powerful superfood that supports heart health, skin radiance, weight management, and digestion.",
+      "3": "Rich in plant-based Omega-3 (ALA), soluble fiber, and lignans (antioxidants), flaxseed is an ideal addition to your daily wellness routine.",
+      "4": "Simply mix 1–2 teaspoons in smoothies, water, milk, yogurt, or chapati dough, or use it in baking recipes for a healthy twist.",
+      "5": "✅ Gluten-Free | ✅ Vegan | ✅ Non-GMO | ✅ No Preservatives | ✅ FSSAI Certified"
+    },
+    "highlight_points": {
+      "🟤": "Rich in Omega-3 & Fiber – High in plant-based Omega-3 fatty acids (ALA) and dietary fiber for heart & digestive health.",
+      "💪": "Supports Weight Management – Helps you feel fuller for longer and supports a healthy metabolism.",
+      "❤️": "Great for Heart & Skin – Promotes good cholesterol levels and healthy, glowing skin.",
+      "🥣": "Perfect for Smoothies, Oats & Baking – Add to smoothies, protein shakes, cereals, or use in baking.",
+      "✅": "Edible, Vegan, & Preservative-Free – 100% natural, gluten-free, and suitable for all diets."
+    },
+    "additional_images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ],
+    "size_price": {
+      "100gm": 200,
+      "200gm": 400,
+      "400gm": 800
     }
   }
 ]
