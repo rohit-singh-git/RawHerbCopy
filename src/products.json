@@ -3,7 +3,7 @@
     "_id": 1,
     "name": "Moringa Powder",
     "title": "100% Pure & Organic Moringa Powder | Natural Energy Booster | Immunity & Digestion Support | Vegan Superfood",
-    "short_description": "This is a great product.",
+    "short_description": "A nutrient-rich superfood packed with vitamins, minerals, and antioxidants, supporting energy, immunity, digestion, and skin health.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
     "long_description": {
       "1": "Revitalize Your Body Naturally with 100% Pure Moringa Powder",
@@ -28,15 +28,14 @@
     ],
     "size_price": {
       "100gm": 200,
-      "200gm": 400,
-      "400gm": 800
+      "200gm": 400
     }
   },
   {
     "_id": 2,
     "name": "Ashwagandha Powder",
     "title": "100% Pure Ashwagandha Powder | Ayurvedic Stress Relief & Energy Booster | Immunity & Strength | Vegan",
-    "short_description": "Great Honey within its category.",
+    "short_description": "A potent adaptogenic herb traditionally used to reduce stress, enhance energy, and support overall vitality and immunity.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
     "long_description": {
       "1": "Recharge Your Body & Mind with Ancient Ayurvedic Wisdom",
@@ -60,16 +59,14 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
     ],
     "size_price": {
-      "100gm": 100,
-      "200gm": 200,
-      "400gm": 600
+      "100gm": 100
     }
   },
   {
     "_id": 3,
     "name": "Rosemary Powder",
     "title": "100% Pure & Natural Rosemary Powder | Aromatic Culinary Herb | Hair & Skin Care | Antioxidant-Rich",
-    "short_description": "This is a great product.",
+    "short_description": "An aromatic herb known for its antioxidant properties, promoting healthy hair and skin, and adding flavor to culinary dishes.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
     "long_description": {
       "1": "Rediscover the Power of Rosemary – A Herbal Classic for Hair, Skin & Kitchen",
@@ -93,16 +90,14 @@
       "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
     ],
     "size_price": {
-      "100gm": 200,
-      "200gm": 400,
-      "400gm": 800
+      "100gm": 200
     }
   },
   {
     "_id": 4,
     "name": "Spirulina Powder",
     "title": "100% Natural Spirulina Powder | Plant-Based Protein & Antioxidant Superfood | Energy, Immunity & Detox Support | Vegan",
-    "short_description": "This is a great product.",
+    "short_description": "A blue-green algae superfood rich in protein, vitamins, and antioxidants, supporting energy, immunity, and detoxification.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
     "long_description": {
       "1": "Fuel Your Body with the Most Nutrient-Dense Superfood on Earth",
@@ -135,7 +130,7 @@
     "_id": 5,
     "name": "Wheatgrass Powder",
     "title": "100% Organic Wheatgrass Powder | Natural Detox & Immunity Booster | Rich in Chlorophyll & Fiber | Vegan Superfood",
-    "short_description": "This is a great product.",
+    "short_description": "An organic supergreen loaded with chlorophyll, vitamins, and fiber, aiding in detoxification, boosting immunity, and enhancing digestion.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
     "long_description": {
       "1": "Fuel Your Day with a Supergreen Boost from Nature",
@@ -168,7 +163,7 @@
     "_id": 6,
     "name": "Flaxseed Powder",
     "title": "100% Natural Flaxseed Powder | Omega-3 Rich Superfood | Weight Management & Heart Health | Edible & Vegan",
-    "short_description": "This is a great product.",
+    "short_description": "A natural source of Omega-3 fatty acids and fiber, supporting heart health, weight management, and digestive wellness.",
     "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
     "long_description": {
       "1": "Fuel Your Body Naturally with 100% Pure Flaxseed Powder",
@@ -195,6 +190,37 @@
       "100gm": 200,
       "200gm": 400,
       "400gm": 800
+    }
+  },
+  {
+    "_id": 7,
+    "name": "Gond Katira",
+    "title": "100% Natural Gond Katira | Edible Cooling Gum Crystals | Boosts Stamina & Immunity | Summer Drink & Ayurvedic Remedy",
+    "short_description": "A natural cooling resin known for its hydrating, anti-inflammatory, and digestive benefits—ideal for refreshing summer drinks and skin-soothing remedies.",
+    "main_image": "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+    "long_description": {
+      "1": "Stay Cool & Energized Naturally with Gond Katira",
+      "2": "Our Premium Gond Katira Crystals are 100% natural, edible, and free from any chemical processing. Gond Katira, also known as Tragacanth Gum, is a time-tested Ayurvedic remedy known for its cooling properties, immunity-boosting benefits, and support for muscle gain.",
+      "3": "When soaked in water, these crystals expand into a jelly-like substance that’s ideal for making summer drinks, sharbat, falooda, desserts, and herbal remedies. Regular consumption helps improve digestion, hydration, skin health, and general strength.",
+      "4": "Especially recommended for men, women, kids, and those recovering from illness or weakness.",
+      "5": "✅ FSSAI Certified | ✅ Vegan | ✅ Cooling Herb | ✅ Ayurvedic Grade | ✅ Safe for Daily Use"
+    },
+    "highlight_points": {
+      "❄️": "Powerful Natural Coolant – Soothes the body and reduces internal heat in summer.",
+      "💪": "Strengthens Body & Improves Stamina – Traditionally used to build muscle and energy.",
+      "🧬": "Rich in Nutrients – Contains calcium, magnesium & essential polysaccharides.",
+      "🥤": "Perfect for Summer Beverages & Desserts – Add to rose milk, falooda, lemon drinks, or lassi.",
+      "✅": "100% Natural, Unpolished & Chemical-Free – Sourced from trusted farms, no preservatives."
+    },
+    "additional_images": [
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p1.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p2.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p3.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p4.jpg",
+      "https://rohit-singh-git.github.io/RawHerbCopy/assets/images/p5.jpg"
+    ],
+    "size_price": {
+      "250gm": 400
     }
   }
 ]
