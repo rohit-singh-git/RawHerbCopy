@@ -44,9 +44,9 @@ function ProductDetail() {
                     ))}
                 </Slider>
             </div>
-            <h1 className="text-charcoal-grey text-3xl font-bold mt-4">{product.name}</h1>
-            <h2 className="text-charcoal-grey font-bold text-xl mt-4">{product.title}</h2>
-            <div className="flex-row items-center text-left bg-gray-400 text-black text-lg mt-4 rounded-3xl p-4 md:w-3/5 shadow-2xl">
+            <h1 className=" text-beige text-3xl font-bold mt-4">{product.name}</h1>
+            <h2 className="text-beige font-bold text-xl mt-4">{product.title}</h2>
+            <div className="flex-row items-center text-left bg-gray-300 text-gray-500 text-lg mt-4 rounded-3xl p-4 md:w-3/5 shadow-2xl">
                 <p className="font-semibold underline text-center">Product Description</p>
                 <br />
                 <p>{product.long_description[1]}</p>
@@ -60,27 +60,27 @@ function ProductDetail() {
                 <p className="font-semibold text-center">{product.long_description[5]}</p>
             </div>
 
-            <ul>
-                <li><p className="text-charcoal-grey mt-4 w-180 text-left md:min-w-3/4">{Object.entries(product?.highlight_points).map(([index, point]) => (
+            <ul className="">
+                <li><p className=" bg-beige text-gray-900 mt-4 w-180 text-left md:min-w-3/4 rounded-xl p-1">{Object.entries(product?.highlight_points).map(([index, point]) => (
                     <div
                         key={index}
-                        className="border border-green-400 rounded-lg p-4 flex flex-col items-center shadow-sm hover:shadow-md transition-shadow"
+                        className="border border-olive-green-dark rounded-lg p-4 m-2 flex flex-col items-center shadow-sm hover:shadow-xl transition-shadow"
                     >
-                        <p className="text-green-700 font-semibold text-lg">{index}</p>
+                        <p className="font-semibold text-lg">{index}</p>
                         <p>{point}</p>
 
                     </div>
                 ))}</p></li>
             </ul>
             {product.size_price && (Object.keys(product.size_price).length === 1 ? (
-                <div className="grid grid-cols-1 gap-4 mt-6">
+                <div className=" bg-beige grid grid-cols-1 gap-4 mt-6 rounded-lg">
                     {Object.entries(product?.size_price).map(([size, price]) => (
                         <div
                             key={size}
-                            className="border border-green-400 rounded-lg p-4 flex flex-col items-center shadow-sm hover:shadow-xl transition-shadow"
+                            className="border rounded-lg p-4 flex flex-col items-center shadow-sm hover:shadow-xl transition-shadow"
                         >
-                            <p className="text-green-700 font-semibold text-lg">{size}</p>
-                            <p className="text-charcoal-grey font-bold">
+                            <p className="text-olive-green-dark font-semibold text-lg">{size}</p>
+                            <p className="text-gray-700 font-bold">
                                 {new Intl.NumberFormat("en-IN", {
                                     style: "currency",
                                     currency: "INR"
@@ -88,24 +88,25 @@ function ProductDetail() {
                             </p>
                         </div>
                     ))}
-                </div>) : (<div className="grid grid-cols-2 gap-4 mt-6">
-                    {Object.entries(product?.size_price).map(([size, price]) => (
-                        <div
-                            key={size}
-                            className="border border-green-400 rounded-lg p-4 flex flex-col items-center shadow-sm hover:shadow-xl transition-shadow"
-                        >
-                            <p className="text-green-700 font-semibold text-lg">{size}</p>
-                            <p className="text-charcoal-grey font-bold">
-                                {new Intl.NumberFormat("en-IN", {
-                                    style: "currency",
-                                    currency: "INR"
-                                }).format(price)}
-                            </p>
-                        </div>
-                    ))}
-                </div>))}
+                </div>
+            ) : (<div className="grid grid-cols-2 gap-4 mt-6 rounded-lg">
+                {Object.entries(product?.size_price).map(([size, price]) => (
+                    <div
+                        key={size}
+                        className="bg-beige border rounded-lg p-4 flex flex-col items-center shadow-sm hover:shadow-xl transition-shadow"
+                    >
+                        <p className="text-olive-green-dark font-semibold text-lg">{size}</p>
+                        <p className="text-gray-700 font-bold">
+                            {new Intl.NumberFormat("en-IN", {
+                                style: "currency",
+                                currency: "INR"
+                            }).format(price)}
+                        </p>
+                    </div>
+                ))}
+            </div>))}
 
-            <Link to="/" className="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
+            <Link to="/" className="mt-6 px-6 py-2 bg-beige text-olive-green-dark rounded-lg hover:bg-olive-green-dark hover:text-beige border-2 border-olive-green-dark hover:border-beige">
                 Back to Home
             </Link>
         </div>

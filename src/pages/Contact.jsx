@@ -4,8 +4,8 @@ import { faInstagram, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg
 function Contact() {
     return (
         <>
-            <div className="w-screen md:w-full flex justify-center items-center min-h-screen bg-gray-900">
-                <div className=" bg-gray-700 flex flex-col  justify-center items-center max-w-md w-7/8 p-6 rounded-3xl shadow-lg">
+            <div className="w-screen md:w-full flex justify-center items-center min-h-screen bg-olive-green-dark">
+                <div className="bg-olive-green-dark flex flex-col  justify-center items-center max-w-md w-7/8 p-6 rounded-3xl shadow-md border-4 border-beige hover:shadow-2xl transition-shadow">
                     <p className=" font-medium text-white text-3xl mb-6">Contact Us</p>
                     <div className="flex flex-col items-center space-y-4">
                         <a href="https://www.instagram.com/rawherb.official/" target="_blank" rel="noopener noreferrer">
