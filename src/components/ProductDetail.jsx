@@ -29,7 +29,7 @@ function ProductDetail() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center p-5 overflow-x-hidden">
+        <div className="w-screen flex flex-col items-center justify-center m-3 overflow-x-hidden">
             <div className="md:w-1/2 grid justify-between grid-cols-1 gap-4 md:gap-6 lg:gap-8 p-6 ml-5 mr-7">
                 <Slider {...settings} className="m-2 pb-3">
                     {product.additional_images.map((image, index) => (
@@ -60,8 +60,8 @@ function ProductDetail() {
                 <p className="font-semibold text-center">{product.long_description[5]}</p>
             </div>
 
-            <ul className="">
-                <li><p className=" bg-beige text-gray-900 mt-4 w-180 text-left md:min-w-3/4 rounded-xl p-1">{Object.entries(product?.highlight_points).map(([index, point]) => (
+            <ul className="md:w-3/5">
+                <li><p className="bg-beige text-olive-green-dark mt-4 text-left rounded-xl p-1">{Object.entries(product?.highlight_points).map(([index, point]) => (
                     <div
                         key={index}
                         className="border border-olive-green-dark rounded-lg p-4 m-2 flex flex-col items-center shadow-sm hover:shadow-xl transition-shadow"
