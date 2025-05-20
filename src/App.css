@@ -10,13 +10,21 @@
     border-radius: 5px;
 }
 
-@theme{
-    --color-olive-green-dark : #011D16;
+@theme {
+    --color-olive-green-dark: #011D16;
     --color-beige: #d9cfaa;
 }
 
-.slick-slide > div {
+.slick-slide>div {
     display: flex !important;
     justify-content: center;
-  }
-  
+}
+
+/* .brand-name, .moto{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+@font-face {
+    font-family: "playfair";
+    src: url('./fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}

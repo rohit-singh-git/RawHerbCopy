@@ -5,11 +5,13 @@ import Home from './pages/Home'
 import { Routes, Route } from 'react-router-dom'
 import Contact from './pages/Contact'
 import ProductDetail from './components/ProductDetail'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <main>
 

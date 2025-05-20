@@ -8,8 +8,8 @@ function Navbar() {
                 <div className="flex justify-between items-center gap-2 md:gap-3 cursor-default">
                     <img src="./assets/images/logo.png" alt="logo" className="w-18 h-28 md:w-16 md:h-24" />
                     <div>
-                        <span className="font-bold text-5xl md:text-7xl text-beige">Rawherb</span>
-                        <p className="font-bold text-xs text-beige text-center">Raw and Real Organics</p>
+                        <span style={{ fontFamily: 'playfair' }} className="brand-name font-bold text-6xl md:text-7xl text-beige">Rawherb</span>
+                        <p style={{ fontFamily: 'playfair' }} className="moto font-bold text-sm text-beige text-center">Raw and Real Organics</p>
                     </div>
                 </div>
             </Link>
